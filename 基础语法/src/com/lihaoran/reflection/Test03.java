@@ -6,9 +6,11 @@ public class Test03 {
         Class c2 = Comparable.class;
         Class c3 = String[].class;
         Class c4 = void.class;
+        Class c5 = Override.class;
         System.out.println(c1);
         System.out.println(c2);
         System.out.println(c3);
         System.out.println(c4);
+        System.out.println(c5);
     }
 }

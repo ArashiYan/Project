@@ -12,7 +12,7 @@ public class TestThread4 implements Runnable{
             if (ticketnums<=0){
                 break;
             }
-            //模拟延时
+            //模拟延时   放大问题的发生性
             try {
                 Thread.sleep(300);
             } catch (InterruptedException e) {
